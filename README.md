@@ -12,6 +12,11 @@ The major challenge in designing drones or vehicles in general is controllabilit
 
 Therefore, the goal of this project is to draw inspiration from swashplate technology to develop a mechanically less complex control system and apply it to a coaxial drone.
 
+<div align="center">
+  <img src="./photos/FLY_Z_ROTOR-1.jpg" alt="FLY-Z" width="50%"/>
+  <img src="./photos/FLY_Z_ROTOR-2.jpg" alt="FLY-Z" width="45%"/>
+</div>
+ 
 ## General Idea ##
 
 The general idea is to use the inertia of the propeller, which are allowed a degree of freedom in rotation around a specific axis.
@@ -28,16 +33,18 @@ The control system is used only on the upper rotor; the lower rotor serves solel
 Initial tests showed that the design of the `FLY_Z-CarterPortePales` part is critical.
 In particular, the positioning of the principal axis of inertia must be aligned with the motor’s axis of rotation to prevent vibrations.
 
-- `v1` :
+- `v1.0` : misaligned axis of inertia generate vibrations 
 
-misaligned axis of inertia ==> vibration causing the system to malfunction
-
-- `v2` :
-
+- `v1.1` : correction of rotor inertia
 
 The system must be able to determine the motor’s angular position. To do this, a magnetic encoder is used (ref. `AS5600`)
 
 The control board is an `ESP32`, chosen for its efficiency and its size (ref. `wemos esp32 d1 mini`)
+
+<div align="center">
+    <img src="./photos/ESP32.jpg" alt="FLY-Z" width="45%" /> 
+    <img src="./photos/motor_AS5600.jpg" alt="FLY-Z" width="45%" /> 
+</div>
 
 ## To Do ##
 

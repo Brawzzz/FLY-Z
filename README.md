@@ -40,7 +40,7 @@ In particular, the positioning of the principal axis of inertia must be aligned 
 
 - `v1.0` : misaligned axis of inertia generate vibrations 
 
-- `v1.1` : correction of rotor inertia : height compensation
+- `v1.1` : correction of rotor inertia
 
 <div align="center">
     <img src="./photos/FLY-Z_CAO_PORTE_PALES_v0.png" alt="FLY-Z" width="45%" /> 

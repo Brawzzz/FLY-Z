@@ -1,6 +1,6 @@
 # FLY-Z #
 
-#### Swashplateless coaxial drone ####
+#### A Swashplateless coaxial drone ####
 
 ## Description ##
 The goal of this project is to develop a drone powered only by two coaxial motors.
@@ -25,6 +25,11 @@ Then, at a given position, the motor accelerates.
 This acceleration causes the blades to tilt, due to the principle of inertia.
 
 This tilting of the blades creates a modification of lift : its increases on one side and a decreases on the other. Then causes the drone to tilt aswell.
+
+<div align="center">
+    <img src="./photos/swashplateless_low_pitch.png" alt="FLY-Z" width="45%" /> 
+    <img src="./photos/swashplateless_high_pitch.png" alt="FLY-Z" width="50%" /> 
+</div>
 
 ## Tests ##
 

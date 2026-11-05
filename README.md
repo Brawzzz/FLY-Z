@@ -43,8 +43,8 @@ In particular, the positioning of the principal axis of inertia must be aligned 
 - `v1.1` : correction of rotor inertia
 
 <div align="center">
-    <img src="./photos/FLY-Z_CAO_PORTE_PALES_v0.png" alt="FLY-Z" width="45%" /> 
-    <img src="./photos/FLY-Z_CAO_PORTE_PALES_vA.png" alt="FLY-Z" width="45%" /> 
+    <img src="./photos/FLY-Z_CAO_PORTE_PALES_v0.png" alt="FLY-Z" width="75%" /> 
+    <img src="./photos/FLY-Z_CAO_PORTE_PALES_vA.png" alt="FLY-Z" width="75%" /> 
 </div>
 
 The system must be able to determine the motor’s angular position. To do this, a magnetic encoder is used (ref. `AS5600`)

@@ -13,7 +13,7 @@ The major challenge in designing drones or vehicles in general is controllabilit
 Therefore, the goal of this project is to draw inspiration from swashplate technology to develop a mechanically less complex control system and apply it to a coaxial drone.
 
 <div align="center">
-  <img src="./photos/FLY_Z_ROTOR-1.jpg" alt="FLY-Z" width="50%"/>
+  <img src="./photos/FLY_Z_ROTOR-1.jpg" alt="FLY-Z" width="45%"/>
   <img src="./photos/FLY_Z_ROTOR-2.jpg" alt="FLY-Z" width="45%"/>
 </div>
  
@@ -27,8 +27,8 @@ This acceleration causes the blades to tilt, due to the principle of inertia.
 This tilting of the blades creates a modification of lift : its increases on one side and a decreases on the other. Then causes the drone to tilt aswell.
 
 <div align="center">
-    <img src="./photos/swashplateless_low_pitch.png" alt="FLY-Z" width="45%" /> 
-    <img src="./photos/swashplateless_high_pitch.png" alt="FLY-Z" width="50%" /> 
+    <img src="./photos/swashplateless_low_pitch.jpg" alt="FLY-Z" width="35%" /> 
+    <img src="./photos/swashplateless_high_pitch.png" alt="FLY-Z" width="45%" /> 
 </div>
 
 ## Tests ##
@@ -40,20 +40,26 @@ In particular, the positioning of the principal axis of inertia must be aligned 
 
 - `v1.0` : misaligned axis of inertia generate vibrations 
 
-- `v1.1` : correction of rotor inertia
+- `v1.1` : correction of rotor inertia : height compensation
+
+<div align="center">
+    <img src="./photos/FLY-Z_CAO_PORTE_PALES_v0.png" alt="FLY-Z" width="45%" /> 
+    <img src="./photos/FLY-Z_CAO_PORTE_PALES_vA.png" alt="FLY-Z" width="45%" /> 
+</div>
 
 The system must be able to determine the motor’s angular position. To do this, a magnetic encoder is used (ref. `AS5600`)
 
 The control board is an `ESP32`, chosen for its efficiency and its size (ref. `wemos esp32 d1 mini`)
 
 <div align="center">
-    <img src="./photos/ESP32.jpg" alt="FLY-Z" width="45%" /> 
-    <img src="./photos/motor_AS5600.jpg" alt="FLY-Z" width="45%" /> 
+    <img src="./photos/FLY_Z_ESP32.jpg" alt="FLY-Z" width="47%" /> 
+    <img src="./photos/FLY_Z_motor_AS5600.jpg" alt="FLY-Z" width="45%" /> 
 </div>
 
 ## To Do ##
 
-- Check for magnetic encoder capacity for high-frequency  
+- Check for magnetic encoder capacity for high-frequency
+- High fps videos test bench to confirm propeller tilting   
 
 ## References ##
 
